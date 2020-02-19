@@ -10,7 +10,7 @@ namespace SimpleFeedReader.Pages
     // <SnippetStartErrorModel>
     public class ErrorModel : PageModel
     {
-        public string RequestId { get; set; }
+        public string? RequestId { get; set; }
 
         public bool ShowRequestId => !string.IsNullOrEmpty(RequestId);
 

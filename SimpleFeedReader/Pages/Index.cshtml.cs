@@ -22,6 +22,7 @@ namespace SimpleFeedReader.Pages
         public string ErrorText { get; private set; }
 
         public List<NewsStoryViewModel> NewsItems { get; private set; }
+        public List<NewsStoryViewModel2> News2Items { get; } = new List<NewsStoryViewModel2>();
 
         public async Task OnGet()
         {
